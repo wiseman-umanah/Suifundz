@@ -10,10 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.7",
+    "@mui/material": "^6.4.7",
+    "@mysten/sui": "^1.21.2",
+    "@suiet/wallet-kit": "^0.3.4",
     "@tailwindcss/vite": "^4.0.11",
+    "axios": "^1.8.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.3.0"
+    "react-router": "^7.3.0",
+    "react-router-dom": "^7.3.0",
+    "tailwindcss": "^4.0.11"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
