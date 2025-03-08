@@ -179,7 +179,7 @@ function App() {
 		<button
 			onClick={handleTransfer}
 			disabled={!connected || isLoading || !amount || !opayAccountNumber}
-			className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 disabled:bg-green-300"
+			className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 disabled:bg-green-300"
 		>
 			{isLoading ? "Processing..." : "Transfer to OPay"}
 		</button>

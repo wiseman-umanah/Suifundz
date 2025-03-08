@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#f8f5e4]">
