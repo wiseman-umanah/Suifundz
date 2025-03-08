@@ -156,12 +156,7 @@ function App() {
 
         <div className="mb-6 flex justify-center">
           <ConnectButton />
-          {connected && (
-            <p className="mt-2 text-sm text-gray-600 ml-4">
-              Connected: {account?.address?.slice(0, 6)}...
-              {account?.address?.slice(-4)}
-            </p>
-          )}
+          
         </div>
 
         {/* Conversion Steps - Side by Side */}
